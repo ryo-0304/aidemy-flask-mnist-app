@@ -1,14 +1,15 @@
 # Web Framework & Server
-flask==3.1.3
-werkzeug==3.1.7
-gunicorn==23.0.0
+flask
+werkzeug
+gunicorn
 
-# AI / Machine Learning (CPU version for Render)
+# AI / Machine Learning (Render用CPU版)
 tensorflow-cpu==2.17.0
 numpy<2.0.0
-pillow==11.1.0
+pillow
 
 # Utilities
-python-dotenv==1.0.1
-requests==2.32.3
+python-dotenv
+# line-bot-sdkの制約に合わせて2.31.0にする
+requests==2.31.0
 line-bot-sdk==3.7.0
