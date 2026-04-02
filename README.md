@@ -1,0 +1,1 @@
+# aidemy-flask-mnist-app
